@@ -5,7 +5,6 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import BlockRGB from "./components/BlockRGB";
 
-
  function HomeScreen({ navigation }) {
   
   useEffect(() => {
@@ -26,7 +25,6 @@ function renderItem({ item }) {
     </TouchableOpacity>
   );
 }
-
 
  function addColor() {
   setColorArray([
@@ -91,7 +89,6 @@ function DetailsScreen({ route }) {
   );
  }
  
-
 const styles = StyleSheet.create({
  container: {
    flex: 1,
